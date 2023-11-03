@@ -1,0 +1,84 @@
+#Head_1 {
+    color: rgb(234, 0, 0);
+    font-style: normal;
+}
+
+#Head_2 {
+    color: rgb(31, 236, 4);
+    font-style: italic;
+
+}
+
+.ol_lists li {
+    line-height: 250%;
+
+}
+
+#strike {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+#overline {
+    background-color: yellow;
+    font-weight: bolder;
+}
+
+#underline {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.heading {
+    color: rgb(234, 0, 0);
+}
+
+ul li {
+    color: brown;
+    letter-spacing: 4px;
+}
+
+#span-color {
+    background-color: yellow;
+}
+
+#para_1 {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#para_2 {
+    color: brown;
+    font-size: 60%;
+}
+
+#para_3 {
+    color: brown;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+a {
+    color: red;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+
+
+/* CSS
+1.Selector
+. Universal
+. Element
+.I'd
+.Class
+2.Inline
+3.Internal
+4.External
+5.Color property
+6.Background property
+7.Text property
+.text decoration
+.font weight
+.font family */
