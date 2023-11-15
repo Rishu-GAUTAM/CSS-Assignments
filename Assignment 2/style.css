@@ -2,11 +2,23 @@ body {
     background-image: url(./Resources/bg_image.jpg);
     background-repeat: repeat;
     background-size: contain;
-    border: green solid 5px;
-    
+
+
+
 }
-html{
+
+.border_div {
+    border: 5px solid;
+    border-color: #d8e4c0;
+}
+
+html {
     scroll-behavior: smooth;
+}
+
+.navbox {
+    margin-top: -60px;
+    padding-top: -70px;
 }
 
 .head1 {
@@ -60,11 +72,12 @@ html{
     margin: 30px;
     padding-top: 10px;
     font-size: 150%;
+    display: inline-block;
 }
 
 .form {
     border: 30px;
-    margin: 100px 30px 0 0;
+    margin-right: -770px;
     width: 350px;
     height: 550px;
     background-color: rgb(249, 241, 225);
@@ -73,6 +86,7 @@ html{
     border: 3px solid red;
     border-style: dashed;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .menu {
@@ -84,6 +98,7 @@ html{
     border-radius: 10px;
     text-align: center;
     border: red 3px solid;
+    
 }
 
 .parentmenu {
@@ -105,6 +120,11 @@ html{
     background-color: rgb(205, 227, 185);
     font-size: 18px;
     border-radius: 20px;
+    /* float: right; */
+    margin-right: 80px;
+    justify-content: space-evenly;
+   
+
 }
 
 .menu_head {
@@ -124,12 +144,16 @@ hr {
 
 .parent_div {
     margin: 20px 30px 20px 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card li {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 0 0 3px #aaff00, 0 0 5px #eeff00;
+
+
 
 }
 
@@ -173,11 +197,14 @@ hr {
     height: 200px;
     width: 200px;
     background-color: burlywood;
-    border: 4px solid white;
+    border: 4px solid black;
     border-radius: 50%;
     background-image: url(./Resources/promo_circle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: -30px;
+    margin-top: 300px;
+    border-style: dotted;
 }
 
 #name {
@@ -198,4 +225,12 @@ pre {
 
 .card hr {
     width: 300px;
+}
+
+.parentflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
