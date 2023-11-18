@@ -112,15 +112,18 @@ html {
     background-color: #e8ffa4;
     line-height: 150%;
     color: black;
-    border: 3px solid red;
-    border-style: dashed;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    border: 3px solid rgb(178, 92, 92);
+    border-style: dotted;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
 }
 
 .form:hover {
     color: red;
     background-color: antiquewhite;
+    border: 3px solid rgb(252, 255, 82);
 }
 
 .menu {
