@@ -11,6 +11,9 @@ body {
 .border_div {
     border: 5px solid;
     border-color: #d8e4c0;
+    margin: 0;
+    padding: 0
+    ;
 }
 
 html {
@@ -125,7 +128,12 @@ html {
     margin-right: 80px;
     justify-content: space-evenly;
     box-shadow: 0 0 8px #bfff00, 0 0 8px #5eff00;
+    border: 3px solid transparent;
+    
 
+}
+.card:hover{
+border: 3px solid #FFA500;
 }
 
 .menu_head {
