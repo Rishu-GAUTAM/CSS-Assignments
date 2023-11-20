@@ -115,15 +115,18 @@ html {
     border: 3px solid rgb(178, 92, 92);
     border-style: dotted;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
-    
+    background-image: linear-gradient(yellowgreen, orange);
+
+
+
+
 }
 
 .form:hover {
     color: red;
     background-color: antiquewhite;
     border: 3px solid rgb(252, 255, 82);
+    background-image: linear-gradient(pink, white);
 }
 
 .menu {
