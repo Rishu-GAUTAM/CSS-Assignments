@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-image: linear-gradient(white, #afadad);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #111010;
+}
+h1 span {
+  font-weight: 700;
+  color: #086632;
+}
+.container1,
+.container2,
+.container3,
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  text-align: center;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  background-color: orangered;
+  animation-name: card-skewX;
+}
+
+@keyframes card-skewX {
+  0% {
+    transform: skewx(0deg);
+  }
+  25% {
+    transform: skewx(20deg);
+  }
+  50% {
+    transform: skewx(0deg);
+  }
+  75% {
+    transform: skewx(-20deg);
+  }
+  100% {
+    transform: skewx(0deg);
+  }
+}
+
+/* ! first done */
+.card2 {
+  height: 200px;
+  width: 200px;
+  background-color: #0073ff;
+  margin: 60px;
+  text-align: center;
+  animation-name: card-skewY;
+}
+
+@keyframes card-skewY {
+  0% {
+    transform: skewY(0deg);
+  }
+  25% {
+    transform: skewY(20deg);
+  }
+  50% {
+    transform: skew(0deg);
+  }
+  75% {
+    transform: skewY(-20deg);
+  }
+  100% {
+    transform: skewY(0deg);
+  }
+}
+
+/* ! second done */
+.card3 {
+  background-color: #14f000;
+  animation-name: card-rotate;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes card-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ! third done */
+.card4 {
+  background-color: #00f8c2;
+  animation-name: card-scaleY;
+}
+@keyframes card-scaleY {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.3);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.card5 {
+  background-color: #f00000;
+  animation-name: card-scaleX;
+}
+@keyframes card-scaleX {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.3);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.card6 {
+  background-color: #f2ff00;
+  animation-name: card-rotate-back;
+}
+@keyframes card-rotate-back {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(100deg);
+  }
+  100% {
+  }
+}
+a img {
+  height: 100px;
+}

@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-image: linear-gradient(white, #afadad);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #111010;
+}
+h1 span {
+  font-weight: 700;
+  color: #086632;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  font-size: 3rem;
+  color: white;
+}
+.contain {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.style-card {
+  height: 250px;
+  width: 250px;
+  margin: 40px;
+  display: flex;
+  text-align: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.card1 {
+  background-color: #00ff2a;
+  animation-name: card1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.card2 {
+  background-color: red;
+  animation-name: card2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.card3 {
+  background-color: greenyellow;
+  animation-name: card2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.card4 {
+  background-color: orange;
+  animation-name: card4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -ms-transform: rotate(100deg);
+  transform: skewY(10deg);
+}
+
+.card5 {
+  background-color: palevioletred;
+  animation-name: card5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.card6 {
+  background-color: blue;
+  animation-name: card6;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes card1 {
+  0% {
+  }
+
+  20% {
+    background-color: #c91feb;
+  }
+
+  30% {
+    background-color: #008060;
+  }
+
+  40% {
+    background-color: #1290e4;
+  }
+
+  50% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: green;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@keyframes card2 {
+  0% {
+  }
+
+  20% {
+    background-color: goldenrod;
+  }
+
+  30% {
+    background-color: orangered;
+  }
+
+  40% {
+    background-color: #dd0a8c;
+  }
+
+  50% {
+    background-color: #d17373;
+  }
+
+  100% {
+    background-color: #6f8829;
+    border-radius: 20% 30%;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@keyframes card3 {
+  0% {
+  }
+
+  20% {
+    background-color: #b3ff01;
+  }
+
+  30% {
+    background-color: #e2693d;
+  }
+
+  40% {
+    background-color: #c01dc0;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: #acb487;
+    transform: rotate(360deg);
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@keyframes card4 {
+  0% {
+  }
+
+  20% {
+    background-color: #03ac3b;
+    transform: scaleY(0.2);
+  }
+
+  30% {
+    background-color: #88ff00;
+  }
+
+  40% {
+    background-color: #db49a3;
+    transform: scaleY(0.5);
+  }
+
+  50% {
+    background-color: #0e4e39;
+    transform: scaleY(1);
+  }
+
+  100% {
+    background-color: #057cb3;
+    height: 200px;
+    width: 200px;
+    transform: rotate(360deg);
+    -ms-transform: rotate(1.5);
+    transform: scaleY(1.5);
+  }
+}
+
+@keyframes card5 {
+  0% {
+  }
+
+  20% {
+    background-color: #208805;
+  }
+
+  30% {
+    background-color: #0d9b4d;
+  }
+
+  40% {
+    background-color: #d34ad3;
+  }
+
+  50% {
+    background-color: #0ee479;
+  }
+
+  100% {
+    background-color: #cfcc11;
+
+    height: 200px;
+    width: 200px;
+    transform: rotate(360deg);
+    -ms-transform: rotate(2.5);
+    transform: scaleY(1.5);
+    /* transform: scaleX(1.5); */
+  }
+}
+
+.card5:hover {
+  animation-name: card5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes card6 {
+  0% {
+  }
+
+  20% {
+    background-color: goldenrod;
+  }
+
+  30% {
+    background-color: orangered;
+  }
+
+  40% {
+    background-color: purple;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    transform: rotate(180deg);
+  }
+}
+a img {
+  height: 100px;
+}
