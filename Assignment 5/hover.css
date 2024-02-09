@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: linear-gradient(white, #afadad);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  margin: 50px;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+}
+h1 span {
+  font-weight: 700;
+  color: #086632;
+}
+.style {
+  height: 150px;
+  width: 150px;
+  background-color: #0da1a9;
+  margin: 40px;
+  font-size: 2rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.anim1 {
+  transition: 2s;
+  background-color: chartreuse;
+}
+.anim1:hover {
+  width: 400px;
+}
+.anim2 {
+  transition: 2s;
+  background-color: #1424f7;
+}
+.anim2:hover {
+  width: 400px;
+  height: 300px;
+}
+.anim2 {
+  transition: 2s;
+  transition-delay: 1s;
+  background-color: #3d49e9;
+}
+.anim2:hover {
+  width: 300px;
+  height: 400px;
+}
+.anim3 {
+  transition: 2s;
+  background-color: #0ac78e;
+}
+.anim3:hover {
+  width: 400px;
+}
+.anim4 {
+  transition: 3s;
+  background-color: red;
+}
+.anim4:hover {
+  width: 400px;
+}
+.anim5 {
+  transition: 3s;
+  background-color: yellow;
+  transition-timing-function: steps(5);
+}
+.anim5:hover {
+  width: 400px;
+}
+.anim6 {
+  transition: 3s;
+  background-color: orangered;
+}
+.anim6:hover {
+  width: 400px;
+}
+.anim7 {
+  transition: 4s;
+  background-color: black;
+}
+.anim7:hover {
+  width: 400px;
+}
+a img {
+  height: 100px;
+}
