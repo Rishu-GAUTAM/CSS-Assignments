@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 body {
   background-image: linear-gradient(white, #afadad);
@@ -103,7 +104,7 @@ h1 span {
 
 /* ! second done */
 .card3 {
-  background-color: #14f000;
+  background-color: #22de11;
   animation-name: card-rotate;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -119,7 +120,7 @@ h1 span {
 
 /* ! third done */
 .card4 {
-  background-color: #00f8c2;
+  background-color: #ca11d0;
   animation-name: card-scaleY;
 }
 @keyframes card-scaleY {
@@ -134,7 +135,7 @@ h1 span {
   }
 }
 .card5 {
-  background-color: #f00000;
+  background-color: #c24d4d;
   animation-name: card-scaleX;
 }
 @keyframes card-scaleX {
@@ -150,7 +151,7 @@ h1 span {
 }
 
 .card6 {
-  background-color: #f2ff00;
+  background-color: #289794;
   animation-name: card-rotate-back;
 }
 @keyframes card-rotate-back {
@@ -165,4 +166,39 @@ h1 span {
 }
 a img {
   height: 100px;
+}
+
+.load-box {
+  height: 50px;
+  width: 50px;
+  margin: 10px auto;
+  /* background-color: grey; */
+  border: 5px solid gray;
+  border-top: 5px solid #041dfa;
+  border-radius: 50%;
+  animation: loader 1s ease-in-out infinite;
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  transition: 1s ease-in-out;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+  background-color: rgb(0, 0, 0);
 }
