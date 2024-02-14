@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-image: url(./Assets/sahara.jpg);
+  background-image: url("https://source.unsplash.com/1920x1080/?desert,night");
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.418);
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #462902;
+  background-image: url(./Assets/night.jpg);
+  background-size: cover;
+
+  padding: 20px;
+  position: fixed;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li {
+  margin: 10px 30px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: 200ms linear;
+  font-size: 1.3rem;
+}
+.ham {
+  visibility: hidden;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.name {
+  color: white;
+  font-size: 2rem;
+  margin: 0px 30px;
+  cursor: pointer;
+  animation: slideFromright 1s linear;
+}
+nav a:hover {
+  color: #a8a4a4f1;
+}
+.Sahara {
+  color: #250f02;
+  font-size: 1.5rem;
+}
+.btn-small {
+  height: 50px;
+  width: 130px;
+  border-radius: 10px;
+  font-size: 1.06rem;
+  font-weight: 500;
+  color: white;
+  border: 2px solid white;
+  background-color: #7375718a;
+  transition: 200ms linear;
+}
+.btn-small:hover {
+  background-color: #25270262;
+  border: 2px solid white;
+  color: #ffffff;
+}
+/* ! ................... nav bar ..................... */
+.first-section {
+  height: 100vh;
+  /* background-color: yellow; */
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  padding-left: 10%;
+  width: 50%;
+  animation: slideFromLeft 1s ease-in-out;
+}
+.intro {
+  font-size: 1rem;
+  margin-top: 250px;
+  margin-left: 40px;
+  color: #dddddd;
+}
+.big-txt {
+  font-size: 100px;
+  font-family: "Protest Strike", sans-serif;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+.left .btn-small {
+  margin-left: 29px;
+}
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.right {
+  width: 50%;
+  font-size: 1.4rem;
+  color: white;
+  margin-top: 250px;
+  margin-left: 40px;
+  margin-right: 30px;
+  text-align: left;
+  animation: slideFromright 1s ease-in;
+}
+
+@keyframes slideFromright {
+  0% {
+    opacity: 0;
+    transform: translatex(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+/* ! ..............card style............. */
+h2 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  margin: 10px 0px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.card-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  /* height: 400px; */
+  width: 400px;
+  margin: 20px 0px;
+  background-color: #000000;
+  color: white;
+  padding: 20px px;
+  box-shadow: inset black 0px -80px 200px;
+  border-radius: 15px;
+  transition: 300ms ease-in;
+}
+.card-head {
+  font-weight: 100;
+  font-size: 3rem;
+  font-family: "Protest Strike", sans-serif;
+}
+.card-content {
+  margin: 30px 10px;
+}
+.card1 {
+  background-image: url(./Assets/view.jpg);
+  background-size: cover;
+}
+.card2 {
+  background-image: url(./Assets/people.jpeg);
+  background-size: cover;
+}
+.card3 {
+  background-image: url(./Assets/pic-2.png);
+  background-size: cover;
+}
+.card4 {
+  background-image: url(./Assets/pic-2.png);
+  background-size: cover;
+}
+.card-style:hover {
+  transform: scale(1.05);
+}
