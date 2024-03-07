@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iCODER</title>
+    <link rel="shortcut icon" href="./cdn/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #0c1e5ef8"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand logo_brand" href="project.html"
+          ><img src="./cdn/logo.png" alt="" height="40px" />&nbsp;Icoder</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./project.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >
+            Stack
+          </a>
+          <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Frontend</a></li>
+                <li><a class="dropdown-item" href="#">Backend</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Database</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Us</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ! nav ends -->
+
+    <div class="container-fluid px-4 py-5 my-5 text-center">
+      <div class="lc-block mb-4">
+        <div editable="rich">
+          <h2 class="display-2 fw-bold">
+            Level up your <span class="text-primary">Skills!</span>
+          </h2>
+        </div>
+      </div>
+      <div class="lc-block col-lg-6 mx-auto mb-5">
+        <div editable="rich">
+          <p class="lead">
+            Unlock your potential with iCoder: Where coding dreams become
+            reality.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"
+      >
+        <a class="btn btn-primary btn-lg px-4 gap-3" href="#" role="button"
+          >Try it free</a
+        >
+        <a class="btn btn-outline-secondary btn-lg px-4" href="#" role="button"
+          >Learn more</a
+        >
+      </div>
+      <div
+        class="lc-block d-grid gap-2 d-sm-flex justify-content-sm-center"
+        style="height: 50vh"
+      >
+        <img class="img-fluid" src="./cdn/hero.png" width="" height="" alt="" />
+      </div>
+    </div>
+
+    <div class="container-fluid" id="blogs" style="background-color: #e7e7e791">
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">Blogs</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Welcome to our blog, where we delve into the world of technology,
+            coding, and digital innovation. Whether you're a beginner looking
+            for tips to kickstart your coding journey or an experienced
+            developer seeking insights into the latest trends, our blog has
+            something for everyone. Join us as we share valuable resources,
+            expert advice, and inspiring stories to help you navigate the
+            ever-evolving landscape of tech.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row mb-2 my-4">
+            <div class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary-emphasis"
+                    >HackaThons</strong
+                  >
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-body-secondary">feb 12</div>
+                  <p class="card-text mb-auto">
+                    Get a chance to participate in one of the biggest hackathons
+                    hurry up..!
+                  </p>
+                  <a
+                    href="#"
+                    class="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg class="bi">
+                      <use xlink:href="#chevron-right"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img
+                    src="./cdn/thum1.jpg"
+                    alt=""
+                    class="bd-placeholder-img"
+                    height="200"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success-emphasis"
+                    >Workshops</strong
+                  >
+                  <h3 class="mb-0">Workshops</h3>
+                  <div class="mb-1 text-body-secondary">Feb 20</div>
+                  <p class="mb-auto">
+                    Get free Workshops given by experienced mentors on carrier
+                    guidance
+                  </p>
+                  <a
+                    href="#"
+                    class="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg class="bi">
+                      <use xlink:href="#chevron-right"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img
+                    src="./cdn/thum2.jpeg"
+                    alt=""
+                    class="bd-placeholder-img"
+                    height="200"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2 my-4">
+            <div class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-danger-emphasis"
+                    >Design</strong
+                  >
+                  <h3 class="mb-0">Placement</h3>
+                  <div class="mb-1 text-body-secondary">Feb 20</div>
+                  <p class="mb-auto">
+                    On campus Placement Opportunities by leading tech brands
+                  </p>
+                  <a
+                    href="#"
+                    class="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg class="bi">
+                      <use xlink:href="#chevron-right"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img
+                    src="./cdn/thum4.webp"
+                    alt=""
+                    class="bd-placeholder-img"
+                    height="200"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-warning-emphasis"
+                    >Scholarship</strong
+                  >
+                  <h3 class="mb-0">Scholarship</h3>
+                  <div class="mb-1 text-body-secondary">Feb 20</div>
+                  <p class="mb-auto">
+                    Free Scholarship by government Click to know more..!
+                  </p>
+                  <a
+                    href="#"
+                    class="icon-link gap-1 icon-link-hover stretched-link"
+                  >
+                    Continue reading
+                    <svg class="bi">
+                      <use xlink:href="#chevron-right"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img
+                    src="./cdn/thum3.jpg"
+                    alt=""
+                    class="bd-placeholder-img"
+                    height="200"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ! reviews-->
+    <section>
+      <div class="row d-flex justify-content-center container-fluid">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h2 class="mb-4 p-4 mt-3">What other say about Us.</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-4 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">Maria Smantha</h5>
+          <h6 class="text-primary mb-3">Data scientist</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>"I've been using iCoder for a
+            while now, and I'm impressed with the quality of their content. The
+            courses cover a wide range of topics like machine learning and
+            blockchain. The personal training sessions have been particularly
+            helpful in guiding me through challenging concepts."<i
+              class="fas fa-quote-right pe-2"
+            ></i>
+          </p>
+          <ul class="list-unstyled d-flex justify-content-center mb-0">
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="./cdn/profile-pic (1).png"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">Gautam Jha</h5>
+          <h6 class="text-primary mb-3">web Developer</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>iCoder has been an invaluable
+            resource for me as a budding developer. The tutorials are clear and
+            concise, making complex concepts easy to understand. The platform's
+            hands-on approach to learning has greatly enhanced my coding skills.
+            Highly recommended! <i class="fas fa-quote-right pe-2"></i>
+          </p>
+          <ul class="list-unstyled d-flex justify-content-center mb-0">
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="./cdn/avatar3.png"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">Collen Hover</h5>
+          <h6 class="text-primary mb-3">Software Engineer</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i> iCoder has revolutionized the
+            way I learn programming. The interactive courses and real-world
+            projects have helped me gain practical experience and build a solid
+            foundation in coding. The Pro plan offers excellent value for money,
+            providing access to premium study materials and personalized
+            support. Thanks to iCoder <i class="fas fa-quote-right pe-2"></i>
+          </p>
+          <ul class="list-unstyled d-flex justify-content-center mb-0">
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="fas fa-star fa-sm text-warning"></i>
+            </li>
+            <li>
+              <i class="far fa-star fa-sm text-warning"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! pricing -->
+
+    <div
+      class="container-fluid pricing_section"
+      style="background-color: #e7e7e791"
+    >
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+        <h1
+          class="display-4 fw-normal text-body-emphasis"
+          style="font-size: 1.3rem; line-height: 2px"
+        >
+          &
+        </h1>
+        <h1
+          class="display-4 fw-normal text-body-emphasis"
+          style="font-size: 1.7rem"
+        >
+          Our Offerings
+        </h1>
+        <p class="fs-5 text-body-secondary">
+          we pride ourselves on offering a comprehensive suite of services
+          tailored to meet the diverse needs of individuals, businesses, and
+          tech enthusiasts alike. Our commitment to excellence drives us to
+          deliver innovative solutions, empower continuous learning, and foster
+          digital growth. Here's what we offer:
+        </p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Basic</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Access to selected courses</li>
+                <li>Limited study materials</li>
+                <li>No personal training</li>
+                <li>Basic doubts clarification</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary"
+              >
+                Start Learning
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Essential</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $15<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Access to all courses</li>
+                <li>Extensive study materials</li>
+                <li>Personalized training sessions</li>
+                <li>Priority doubts clarification</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Enroll Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Premium</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $29<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Access to all courses</li>
+                <li>Premium study materials</li>
+                <li>Personalized one-on-one training</li>
+                <li>24/7 priority support</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%"></th>
+              <th style="width: 22%">Basic</th>
+              <th style="width: 22%">Standard</th>
+              <th style="width: 22%">Premium</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Course Access</th>
+              <td>Selected</td>
+              <td>Standard</td>
+              <td>Full</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Study Materials</th>
+              <td>Limited</td>
+              <td>Standard</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Personal Training</th>
+              <td>No</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Doubts Clarification</th>
+              <td>Basic</td>
+              <td>Standard</td>
+              <td>Premium</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <hr />
+    <!--! why i code -->
+    <div
+      class="container d-flex flex-column justify-content-center align-items-center"
+      style="height: 50vh"
+    >
+      <h1
+        class="display-5 fw-bold text-body-emphasis"
+      >
+        Why Icoder
+      </h1>
+
+      <p>
+        <b>iCoder</b> is your one-stop destination for learning programming and
+        technology skills. Whether you're a beginner or an experienced coder, we
+        have courses and resources to help you achieve your goals.
+      </p>
+      <p>
+        Our platform offers a wide range of courses covering topics such as web
+        development, mobile app development, data science, artificial
+        intelligence, and more. With hands-on projects, personalized training,
+        and a supportive community, you'll have everything you need to succeed.
+      </p>
+    </div>
+
+    <!--!  footer -->
+
+    <footer
+      class="text-center text-lg-start text-dark"
+      style="background-color: #eceff1"
+    >
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-between p-4 text-white"
+        style="background-color: #0033ecf8"
+      >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Connect with us on social media:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="#" class="text-white me-4"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-4"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" class="text-white me-4"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="text-white me-4"><i class="fab fa-github"></i></a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">iCoder</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #4a328c; height: 2px"
+              />
+              <p>
+                iCoder is your gateway to mastering the latest technologies.
+                Explore our courses and unleash your potential in the digital
+                world.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Explore</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p><a href="#" class="text-dark">Courses</a></p>
+              <p><a href="#" class="text-dark">Blog</a></p>
+              <p><a href="#" class="text-dark">About Us</a></p>
+              <p><a href="#" class="text-dark">Contact</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Resources</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p><a href="#" class="text-dark">FAQs</a></p>
+              <p><a href="#" class="text-dark">Support</a></p>
+              <p><a href="#" class="text-dark">Terms of Service</a></p>
+              <p><a href="#" class="text-dark">Privacy Policy</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Contact -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p><i class="fas fa-envelope me-3"></i> info@icoder.com</p>
+              <p><i class="fas fa-phone me-3"></i> +123456789</p>
+              <p><i class="fas fa-map-marker-alt me-3"></i> New York, USA</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 iCoder. All rights reserved.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
